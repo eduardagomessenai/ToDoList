@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("./img/FundoAzulSite.png") no-repeat top center/cover;
+  font-family: Arial;
+  padding: 30px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  position: re;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background: #87bcc8;
+  border-radius: 5px;
+  opacity: 60%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #a7c0cd8f;
+  opacity: 92%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarefas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.numeros {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-form input {
+  width: 500px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bolinha {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: #89a3b16e;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.corBol{
+  background: #89a3b1;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+}
+
+.icon div {
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+}
+
+.icon div:first-child {
+  background: #87bcc8;
+}
+
+.icon div:last-child {
+  background: #87bcc863;
+}
+
+.fundoBranco {
+  border-radius: 15px;
+  background: #f8f8f8;
+  width: 1000px;
+  min-height: 624px;
+  padding: 50px 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.barra {
+  width: 100%;
+  height: 45px;
+  background: #89a3b1;
+  position: absolute;
+  top: 0;
+  border-radius: 15px 15px 0 0;
+}
